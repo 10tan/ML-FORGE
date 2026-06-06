@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMLForge.a CMakeFiles/MLForge.dir/src/mlforge.cpp.o
+/usr/bin/ranlib libMLForge.a

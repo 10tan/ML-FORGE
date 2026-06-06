@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/hardy/Desktop/ML-FORGE/build",
+  "command": "/usr/lib64/ccache/g++  -I/home/hardy/Desktop/ML-FORGE/include -O2 -g -DNDEBUG -std=gnu++20 -O3 -Wall -Wextra -march=native -o CMakeFiles/MLForge.dir/src/mlforge.cpp.o -c /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp",
+  "file": "/home/hardy/Desktop/ML-FORGE/src/mlforge.cpp",
+  "output": "CMakeFiles/MLForge.dir/src/mlforge.cpp.o"
+},
+{
+  "directory": "/home/hardy/Desktop/ML-FORGE/build",
+  "command": "/usr/lib64/ccache/g++  -I/home/hardy/Desktop/ML-FORGE/include -O2 -g -DNDEBUG -std=gnu++20 -O3 -Wall -Wextra -march=native -o CMakeFiles/mlforge_run.dir/main.cpp.o -c /home/hardy/Desktop/ML-FORGE/main.cpp",
+  "file": "/home/hardy/Desktop/ML-FORGE/main.cpp",
+  "output": "CMakeFiles/mlforge_run.dir/main.cpp.o"
+}
+]
