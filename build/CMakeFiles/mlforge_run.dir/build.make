@@ -76,15 +76,15 @@ CMakeFiles/mlforge_run.dir/main.cpp.o: CMakeFiles/mlforge_run.dir/flags.make
 CMakeFiles/mlforge_run.dir/main.cpp.o: /home/hardy/Desktop/ML-FORGE/main.cpp
 CMakeFiles/mlforge_run.dir/main.cpp.o: CMakeFiles/mlforge_run.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hardy/Desktop/ML-FORGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mlforge_run.dir/main.cpp.o"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlforge_run.dir/main.cpp.o -MF CMakeFiles/mlforge_run.dir/main.cpp.o.d -o CMakeFiles/mlforge_run.dir/main.cpp.o -c /home/hardy/Desktop/ML-FORGE/main.cpp
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mlforge_run.dir/main.cpp.o -MF CMakeFiles/mlforge_run.dir/main.cpp.o.d -o CMakeFiles/mlforge_run.dir/main.cpp.o -c /home/hardy/Desktop/ML-FORGE/main.cpp
 
 CMakeFiles/mlforge_run.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mlforge_run.dir/main.cpp.i"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hardy/Desktop/ML-FORGE/main.cpp > CMakeFiles/mlforge_run.dir/main.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hardy/Desktop/ML-FORGE/main.cpp > CMakeFiles/mlforge_run.dir/main.cpp.i
 
 CMakeFiles/mlforge_run.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mlforge_run.dir/main.cpp.s"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hardy/Desktop/ML-FORGE/main.cpp -o CMakeFiles/mlforge_run.dir/main.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hardy/Desktop/ML-FORGE/main.cpp -o CMakeFiles/mlforge_run.dir/main.cpp.s
 
 # Object files for target mlforge_run
 mlforge_run_OBJECTS = \

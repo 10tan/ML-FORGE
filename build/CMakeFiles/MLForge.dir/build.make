@@ -76,15 +76,15 @@ CMakeFiles/MLForge.dir/src/mlforge.cpp.o: CMakeFiles/MLForge.dir/flags.make
 CMakeFiles/MLForge.dir/src/mlforge.cpp.o: /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp
 CMakeFiles/MLForge.dir/src/mlforge.cpp.o: CMakeFiles/MLForge.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hardy/Desktop/ML-FORGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MLForge.dir/src/mlforge.cpp.o"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MLForge.dir/src/mlforge.cpp.o -MF CMakeFiles/MLForge.dir/src/mlforge.cpp.o.d -o CMakeFiles/MLForge.dir/src/mlforge.cpp.o -c /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MLForge.dir/src/mlforge.cpp.o -MF CMakeFiles/MLForge.dir/src/mlforge.cpp.o.d -o CMakeFiles/MLForge.dir/src/mlforge.cpp.o -c /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp
 
 CMakeFiles/MLForge.dir/src/mlforge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MLForge.dir/src/mlforge.cpp.i"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp > CMakeFiles/MLForge.dir/src/mlforge.cpp.i
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp > CMakeFiles/MLForge.dir/src/mlforge.cpp.i
 
 CMakeFiles/MLForge.dir/src/mlforge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MLForge.dir/src/mlforge.cpp.s"
-	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp -o CMakeFiles/MLForge.dir/src/mlforge.cpp.s
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hardy/Desktop/ML-FORGE/src/mlforge.cpp -o CMakeFiles/MLForge.dir/src/mlforge.cpp.s
 
 # Object files for target MLForge
 MLForge_OBJECTS = \

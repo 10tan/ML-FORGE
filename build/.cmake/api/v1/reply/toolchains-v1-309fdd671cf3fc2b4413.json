@@ -38,7 +38,7 @@
 						"gcc"
 					]
 				},
-				"path" : "/usr/lib64/ccache/g++",
+				"path" : "/usr/lib64/ccache/c++",
 				"version" : "16.1.1"
 			},
 			"language" : "CXX",

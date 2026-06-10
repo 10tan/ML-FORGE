@@ -1,8 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "mlforge_run"
+			"path" : "libMLForge.a"
 		}
 	],
 	"backtrace" : 1,
@@ -10,8 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
-			"target_link_libraries",
+			"add_library",
 			"add_compile_options",
 			"include_directories"
 		],
@@ -27,25 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 20,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 8,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 11,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -55,42 +49,35 @@
 		"major" : 2,
 		"minor" : 10
 	},
-	"compileDependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "MLForge::@6890427a1f51a3e7e1df"
-		}
-	],
 	"compileGroups" : 
 	[
 		{
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O2 -g -DNDEBUG -std=gnu++20"
+					"fragment" : "-std=c++20"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-O3"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"fragment" : "-march=native"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "/home/hardy/Desktop/ML-FORGE/include"
 				}
 			],
@@ -109,39 +96,9 @@
 			]
 		}
 	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "MLForge::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "mlforge_run::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-O2 -g -DNDEBUG",
-				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libMLForge.a",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"linkLibraries" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "MLForge::@6890427a1f51a3e7e1df"
-		}
-	],
-	"name" : "mlforge_run",
-	"nameOnDisk" : "mlforge_run",
+	"id" : "MLForge::@6890427a1f51a3e7e1df",
+	"name" : "MLForge",
+	"nameOnDisk" : "libMLForge.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -162,9 +119,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "src/mlforge.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }
