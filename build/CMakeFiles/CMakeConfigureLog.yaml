@@ -20,6 +20,8 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/lib64/ccache/"
       - "/usr/local/bin/"
@@ -30,16 +32,24 @@ events:
       - "/.local/share/flatpak/exports/bin/"
       - "/bin/"
     searched_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/usr/share/Modules/bin/uname"
       - "/usr/lib64/ccache/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -76,6 +86,8 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/lib64/ccache/"
       - "/usr/local/bin/"
@@ -85,16 +97,24 @@ events:
       - "/var/lib/flatpak/exports/bin/"
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
       - "/usr/share/Modules/bin/gmake"
       - "/usr/lib64/ccache/gmake"
       - "/usr/local/bin/gmake"
     found: "/usr/bin/gmake"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -132,6 +152,8 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/lib64/ccache/"
       - "/usr/local/bin/"
@@ -141,14 +163,22 @@ events:
       - "/var/lib/flatpak/exports/bin/"
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
       - "/usr/share/Modules/bin/c++"
     found: "/usr/lib64/ccache/c++"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -184,10 +214,16 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -239,6 +275,8 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -248,15 +286,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/ar"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ar"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ar"
       - "/usr/share/Modules/bin/ar"
       - "/usr/local/bin/ar"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -286,6 +332,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -295,15 +343,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/ranlib"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ranlib"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ranlib"
       - "/usr/share/Modules/bin/ranlib"
       - "/usr/local/bin/ranlib"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -333,6 +389,8 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -342,15 +400,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/strip"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/strip"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/strip"
       - "/usr/share/Modules/bin/strip"
       - "/usr/local/bin/strip"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -380,6 +446,8 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -389,15 +457,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/ld"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/ld"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/ld"
       - "/usr/share/Modules/bin/ld"
       - "/usr/local/bin/ld"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -427,6 +503,8 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -436,15 +514,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/nm"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/nm"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/nm"
       - "/usr/share/Modules/bin/nm"
       - "/usr/local/bin/nm"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -474,6 +560,8 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -483,15 +571,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/objdump"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/objdump"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/objdump"
       - "/usr/share/Modules/bin/objdump"
       - "/usr/local/bin/objdump"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -521,6 +617,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -530,15 +628,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/objcopy"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
       - "/usr/share/Modules/bin/objcopy"
       - "/usr/local/bin/objcopy"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -568,6 +674,8 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -577,15 +685,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/readelf"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
       - "/usr/share/Modules/bin/readelf"
       - "/usr/local/bin/readelf"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -615,6 +731,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -624,6 +742,8 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/dlltool"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/usr/share/Modules/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/bin/dlltool"
@@ -634,10 +754,16 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -667,6 +793,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -676,15 +804,23 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/addr2line"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
       - "/usr/share/Modules/bin/addr2line"
       - "/usr/local/bin/addr2line"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -714,6 +850,8 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -723,6 +861,8 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/tapi"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/usr/share/Modules/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/bin/tapi"
@@ -733,10 +873,16 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -769,6 +915,8 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -778,6 +926,8 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/gcc-ar-16.1"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1"
       - "/usr/share/Modules/bin/gcc-ar-16.1"
       - "/usr/local/bin/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16.1"
@@ -786,6 +936,8 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ar-16.1"
       - "/.local/share/flatpak/exports/bin/gcc-ar-16.1"
       - "/usr/lib64/ccache/gcc-ar-16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
       - "/usr/share/Modules/bin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/usr/bin/gcc-ar-16"
@@ -794,6 +946,8 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ar-16"
       - "/.local/share/flatpak/exports/bin/gcc-ar-16"
       - "/usr/lib64/ccache/gcc-ar16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
       - "/usr/share/Modules/bin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/usr/bin/gcc-ar16"
@@ -802,15 +956,23 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ar16"
       - "/.local/share/flatpak/exports/bin/gcc-ar16"
       - "/usr/lib64/ccache/gcc-ar"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar"
       - "/usr/share/Modules/bin/gcc-ar"
       - "/usr/local/bin/gcc-ar"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -843,6 +1005,8 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/lib64/ccache/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/usr/share/Modules/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -852,6 +1016,8 @@ events:
       - "/.local/share/flatpak/exports/bin/"
     searched_directories:
       - "/usr/lib64/ccache/gcc-ranlib-16.1"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1"
       - "/usr/share/Modules/bin/gcc-ranlib-16.1"
       - "/usr/local/bin/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16.1"
@@ -860,6 +1026,8 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.1"
       - "/.local/share/flatpak/exports/bin/gcc-ranlib-16.1"
       - "/usr/lib64/ccache/gcc-ranlib-16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
       - "/usr/share/Modules/bin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib-16"
@@ -868,6 +1036,8 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
       - "/.local/share/flatpak/exports/bin/gcc-ranlib-16"
       - "/usr/lib64/ccache/gcc-ranlib16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
       - "/usr/share/Modules/bin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/usr/bin/gcc-ranlib16"
@@ -876,15 +1046,23 @@ events:
       - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
       - "/.local/share/flatpak/exports/bin/gcc-ranlib16"
       - "/usr/lib64/ccache/gcc-ranlib"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib"
+      - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib"
       - "/usr/share/Modules/bin/gcc-ranlib"
       - "/usr/local/bin/gcc-ranlib"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/hardy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/usr/share/Modules/bin"
         - "/usr/lib64/ccache"
         - "/usr/local/bin"
         - "/usr/bin"
+        - "/home/hardy/.local/bin"
+        - "/home/hardy/.cargo/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/.local/share/flatpak/exports/bin"
         - "/home/hardy/.local/bin"
         - "/home/hardy/.cargo/bin"
         - "/var/lib/flatpak/exports/bin"
@@ -902,8 +1080,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo"
-      binary: "/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo"
+      source: "/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P"
+      binary: "/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -914,13 +1092,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo'
+        Change Dir: '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ca84/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1ca84.dir/build.make CMakeFiles/cmTC_1ca84.dir/build
-        gmake[1]: Entering directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo'
-        Building CXX object CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68852/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_68852.dir/build.make CMakeFiles/cmTC_68852.dir/build
+        gmake[1]: Entering directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P'
+        Building CXX object CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -954,8 +1132,8 @@ events:
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_1ca84
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca84.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_68852
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68852.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
@@ -968,14 +1146,14 @@ events:
         gcc version 16.1.1 20260515 (Red Hat 16.1.1-2) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ca84' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1ca84.'
-         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccunhtin.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1ca84 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68852' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_68852.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS4s4Ve.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_68852 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         collect2 version 16.1.1 20260515 (Red Hat 16.1.1-2)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccunhtin.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1ca84 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS4s4Ve.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_68852 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         GNU ld version 2.46-3.fc44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ca84' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1ca84.'
-        /usr/lib64/ccache/c++  -v -Wl,-v CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ca84
-        gmake[1]: Leaving directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68852' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_68852.'
+        /usr/lib64/ccache/c++  -v -Wl,-v CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_68852
+        gmake[1]: Leaving directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P'
         
       exitCode: 0
   -
@@ -1014,13 +1192,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo']
+        ignore line: [Change Dir: '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ca84/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1ca84.dir/build.make CMakeFiles/cmTC_1ca84.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-ijRSeo']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68852/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_68852.dir/build.make CMakeFiles/cmTC_68852.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/hardy/Desktop/ML-FORGE/build/CMakeFiles/CMakeScratch/TryCompile-YaRN9P']
+        ignore line: [Building CXX object CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/lib64/ccache/c++   -v -o CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1054,8 +1232,8 @@ events:
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-c' '-o' 'CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_1ca84]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca84.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_68852]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68852.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
@@ -1068,13 +1246,13 @@ events:
         ignore line: [gcc version 16.1.1 20260515 (Red Hat 16.1.1-2) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ca84' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1ca84.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccunhtin.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1ca84 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68852' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_68852.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS4s4Ve.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_68852 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccunhtin.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccS4s4Ve.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1090,7 +1268,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1ca84] ==> ignore
+          arg [cmTC_68852] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
@@ -1102,7 +1280,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1114,7 +1292,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
         ignore line: [collect2 version 16.1.1 20260515 (Red Hat 16.1.1-2)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccunhtin.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1ca84 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1ca84.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccS4s4Ve.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_68852 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_68852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
