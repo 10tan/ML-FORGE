@@ -1,5 +1,8 @@
-CMakeFiles/mlforge_run.dir/main.cpp.o: \
- /home/hardy/Desktop/ML-FORGE/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o: \
+ /home/hardy/Desktop/ML-FORGE/tests/test_runner.cpp \
+ /usr/include/stdc-predef.h \
+ /home/hardy/Desktop/ML-FORGE/tests/test_matrix.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/mlforge.hpp \
  /usr/include/c++/16/iostream /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -143,9 +146,8 @@ CMakeFiles/mlforge_run.dir/main.cpp.o: \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc \
- /home/hardy/Desktop/ML-FORGE/include/mlforge.hpp \
- /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/istream.tcc /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
  /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/iomanip \
@@ -185,12 +187,45 @@ CMakeFiles/mlforge_run.dir/main.cpp.o: \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/base.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/base.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/linear_reg.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/linear_class.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/sigmoid.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/logistic_reg.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/ridge.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/lasso.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/linear/elastic_net.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/trees/decision_tree.hpp \
+ /usr/include/c++/16/memory /usr/include/c++/16/bits/stl_tempbuf.h \
+ /usr/include/c++/16/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr_base.h \
+ /usr/include/c++/16/bits/allocated_ptr.h \
+ /usr/include/c++/16/bits/refwrap.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/ext/concurrence.h \
+ /usr/include/c++/16/bits/shared_ptr_atomic.h \
+ /usr/include/c++/16/bits/atomic_base.h \
+ /usr/include/c++/16/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/16/bits/atomic_wait.h \
+ /usr/include/c++/16/backward/auto_ptr.h \
+ /usr/include/c++/16/bits/ranges_uninitialized.h \
+ /usr/include/c++/16/bits/ranges_algobase.h \
+ /usr/include/c++/16/pstl/glue_memory_defs.h \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/trees/random_forest.hpp \
+ /usr/include/c++/16/random /usr/include/c++/16/cstdint \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/16/bits/random.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/x86_64-redhat-linux/bits/opt_random.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/mm_malloc.h \
+ /usr/include/c++/16/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/16/include/mwaitintrin.h \
+ /usr/include/c++/16/bits/random.tcc \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/trees/adaboost.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/trees/gradient_boosting.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/bayes/naive_bayes.hpp \
@@ -204,7 +239,6 @@ CMakeFiles/mlforge_run.dir/main.cpp.o: \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/layers/pooling.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/layers/flatten.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/relu.hpp \
- /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/sigmoid.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/softmax.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/optimizer.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/sgd.hpp \
@@ -219,4 +253,20 @@ CMakeFiles/mlforge_run.dir/main.cpp.o: \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/distance.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/data_splitter.hpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/core/matrix.cpp \
- /home/hardy/Desktop/ML-FORGE/include/../src/core/tensor.cpp
+ /home/hardy/Desktop/ML-FORGE/include/../src/core/tensor.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/nn/activations/sigmoid.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/linear/linear_reg.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/linear/linear_class.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/decision_tree.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/adaboost.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/gradient_boosting.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/random_forest.cpp \
+ /usr/include/c++/16/cassert /usr/include/assert.h \
+ /home/hardy/Desktop/ML-FORGE/tests/test_linear_reg.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_tensor.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_metrics.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_linear_class.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_decision_tree.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_random_forest.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_adaboost.hpp \
+ /home/hardy/Desktop/ML-FORGE/tests/test_gradient_boosting.hpp

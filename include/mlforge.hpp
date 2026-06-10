@@ -38,6 +38,7 @@ namespace MLForge {
 // ============================================================================
 // Linear & Regularized Regression Models
 #include "tinyml/supervised/linear/linear_reg.hpp"
+#include "tinyml/supervised/linear/linear_class.hpp"
 #include "tinyml/supervised/linear/logistic_reg.hpp"
 #include "tinyml/supervised/linear/ridge.hpp"
 #include "tinyml/supervised/linear/lasso.hpp"
@@ -101,3 +102,11 @@ namespace MLForge {
 // ============================================================================
 #include "../src/core/matrix.cpp"
 #include "../src/core/tensor.cpp"
+#include "../src/supervised/nn/activations/sigmoid.cpp"
+#include "../src/supervised/linear/linear_reg.cpp"
+#include "../src/supervised/linear/linear_class.cpp"
+#include "../src/supervised/trees/decision_tree.cpp"
+#include "../src/supervised/trees/adaboost.cpp"
+#include "../src/supervised/trees/gradient_boosting.cpp"
+#include "../src/supervised/trees/random_forest.cpp"
+// #include "../src/utils/metrics.cpp"

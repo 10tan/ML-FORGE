@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mlforge_run.dir/link.d"
-  "CMakeFiles/mlforge_run.dir/main.cpp.o"
-  "CMakeFiles/mlforge_run.dir/main.cpp.o.d"
+  "CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o"
+  "CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o.d"
   "mlforge_run"
   "mlforge_run.pdb"
 )

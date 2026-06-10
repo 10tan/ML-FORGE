@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hardy/Desktop/ML-FORGE/main.cpp" "CMakeFiles/mlforge_run.dir/main.cpp.o" "gcc" "CMakeFiles/mlforge_run.dir/main.cpp.o.d"
+  "/home/hardy/Desktop/ML-FORGE/tests/test_runner.cpp" "CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o" "gcc" "CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o.d"
   "" "mlforge_run" "gcc" "CMakeFiles/mlforge_run.dir/link.d"
   )
 
