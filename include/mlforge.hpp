@@ -73,7 +73,7 @@ namespace MLForge {
 #include "tinyml/supervised/nn/activations/sigmoid.hpp"
 #include "tinyml/supervised/nn/activations/softmax.hpp"
 #include "tinyml/supervised/nn/optimizers/optimizer.hpp"
-#include "tinyml/supervised/nn/optimizers/sgd.hpp"
+#include "tinyml/supervised/nn/optimizers/sgd_momentum.hpp"
 #include "tinyml/supervised/nn/optimizers/adam.hpp"
 
 // ============================================================================
@@ -91,8 +91,10 @@ namespace MLForge {
 // 6. Common Utilities
 // ============================================================================
 #include "tinyml/utils/metrics.hpp"
+#include "tinyml/utils/core_utils.hpp"
 #include "tinyml/utils/distance.hpp"
 #include "tinyml/utils/data_splitter.hpp"
+#include "tinyml/utils/preprocessing/scaler.hpp"
 
 // ============================================================================
 // 7. Core Template Implementation Linking
@@ -109,4 +111,11 @@ namespace MLForge {
 #include "../src/supervised/trees/adaboost.cpp"
 #include "../src/supervised/trees/gradient_boosting.cpp"
 #include "../src/supervised/trees/random_forest.cpp"
-// #include "../src/utils/metrics.cpp"
+#include "../src/supervised/nn/activations/relu.cpp"
+#include "../src/utils/preprocessing/scaler.cpp"
+
+// ============================================================================
+// 8. Visualization & I/O Utilities (Optional, may require external dependencies)
+// ============================================================================
+#include "tinyml/utils/visualization/plot.hpp"
+#include "../src/utils/visualization/plot.cpp"

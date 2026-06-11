@@ -1,5 +1,7 @@
 // src/core/matrix.cpp
 // NO #includes here! Relying on unity inclusion via mlforge.hpp
+#include <fstream>
+#include <iomanip>
 
 namespace MLForge {
     namespace Core {
@@ -89,6 +91,27 @@ namespace MLForge {
             }
             std::cout << std::endl;
         }
+        template <typename T>
+void Matrix<T>::to_csv(const std::string& filename) const {
+    std::ofstream file(filename);
+    if (!file.is_open()) {
+        throw std::runtime_error("Disk I/O Error: Could not create or open file: " + filename);
+    }
+
+    // High-precision output stream configuration
+    file << std::fixed << std::setprecision(6);
+
+    for (size_t r = 0; r < m_rows; ++r) {
+        for (size_t c = 0; c < m_cols; ++c) {
+            file << (*this)(r, c);
+            if (c < m_cols - 1) {
+                file << ","; // Comma separated values boundary delimiter
+            }
+        }
+        file << "\n"; // Clean row newline break
+    }
+    file.close();
+}
 
     }
 }

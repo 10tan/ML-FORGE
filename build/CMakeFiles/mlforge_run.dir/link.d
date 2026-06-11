@@ -2,7 +2,7 @@ mlforge_run: \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o \
-  CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o \
+  CMakeFiles/mlforge_run.dir/main.cpp.o \
   libMLForge.a \
   libMLForge.a \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
@@ -46,7 +46,7 @@ mlforge_run: \
 
 /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
 
-CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o:
+CMakeFiles/mlforge_run.dir/main.cpp.o:
 
 libMLForge.a:
 

@@ -1,7 +1,5 @@
-CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o: \
- /home/hardy/Desktop/ML-FORGE/tests/test_runner.cpp \
- /usr/include/stdc-predef.h \
- /home/hardy/Desktop/ML-FORGE/tests/test_matrix.hpp \
+CMakeFiles/mlforge_run.dir/main.cpp.o: \
+ /home/hardy/Desktop/ML-FORGE/main.cpp /usr/include/stdc-predef.h \
  /home/hardy/Desktop/ML-FORGE/include/mlforge.hpp \
  /usr/include/c++/16/iostream /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-redhat-linux/bits/c++config.h \
@@ -241,18 +239,29 @@ CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o: \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/relu.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/activations/softmax.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/optimizer.hpp \
- /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/sgd.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/sgd_momentum.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/supervised/nn/optimizers/adam.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/clustering/kmeans.hpp \
+ /usr/include/c++/16/algorithm /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/ranges_algo.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/clustering/dbscan.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/clustering/agglomerative.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/dimensionality/pca.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/dimensionality/tsne.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/unsupervised/dimensionality/lda.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/metrics.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/core_utils.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/distance.hpp \
  /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/data_splitter.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/preprocessing/scaler.hpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/core/matrix.cpp \
+ /usr/include/c++/16/fstream \
+ /usr/include/c++/16/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/16/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/16/bits/fstream.tcc \
  /home/hardy/Desktop/ML-FORGE/include/../src/core/tensor.cpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/supervised/nn/activations/sigmoid.cpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/supervised/linear/linear_reg.cpp \
@@ -261,12 +270,7 @@ CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o: \
  /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/adaboost.cpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/gradient_boosting.cpp \
  /home/hardy/Desktop/ML-FORGE/include/../src/supervised/trees/random_forest.cpp \
- /usr/include/c++/16/cassert /usr/include/assert.h \
- /home/hardy/Desktop/ML-FORGE/tests/test_linear_reg.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_tensor.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_metrics.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_linear_class.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_decision_tree.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_random_forest.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_adaboost.hpp \
- /home/hardy/Desktop/ML-FORGE/tests/test_gradient_boosting.hpp
+ /home/hardy/Desktop/ML-FORGE/include/../src/supervised/nn/activations/relu.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/utils/preprocessing/scaler.cpp \
+ /home/hardy/Desktop/ML-FORGE/include/tinyml/utils/visualization/plot.hpp \
+ /home/hardy/Desktop/ML-FORGE/include/../src/utils/visualization/plot.cpp

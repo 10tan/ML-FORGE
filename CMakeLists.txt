@@ -22,7 +22,8 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_library(${PROJECT_NAME} STATIC src/mlforge.cpp)
 
 # 3. Create your main runnable program from the root test file
-set(TEST_RUNNER ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_runner.cpp)
+# set(TEST_RUNNER ${CMAKE_CURRENT_SOURCE_DIR}/tests/test_runner.cpp)
+set(TEST_RUNNER ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp)
 if(EXISTS ${TEST_RUNNER})
     add_executable(mlforge_run ${TEST_RUNNER})
     target_link_libraries(mlforge_run PRIVATE ${PROJECT_NAME})

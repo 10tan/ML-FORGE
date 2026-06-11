@@ -142,6 +142,30 @@ mlforge_run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/build
 .PHONY : mlforge_run/fast
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 src/mlforge.o: src/mlforge.cpp.o
 .PHONY : src/mlforge.o
 
@@ -166,30 +190,6 @@ src/mlforge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLForge.dir/build.make CMakeFiles/MLForge.dir/src/mlforge.cpp.s
 .PHONY : src/mlforge.cpp.s
 
-tests/test_runner.o: tests/test_runner.cpp.o
-.PHONY : tests/test_runner.o
-
-# target to build an object file
-tests/test_runner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.o
-.PHONY : tests/test_runner.cpp.o
-
-tests/test_runner.i: tests/test_runner.cpp.i
-.PHONY : tests/test_runner.i
-
-# target to preprocess a source file
-tests/test_runner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.i
-.PHONY : tests/test_runner.cpp.i
-
-tests/test_runner.s: tests/test_runner.cpp.s
-.PHONY : tests/test_runner.s
-
-# target to generate assembly for a file
-tests/test_runner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/tests/test_runner.cpp.s
-.PHONY : tests/test_runner.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +200,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MLForge"
 	@echo "... mlforge_run"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... src/mlforge.o"
 	@echo "... src/mlforge.i"
 	@echo "... src/mlforge.s"
-	@echo "... tests/test_runner.o"
-	@echo "... tests/test_runner.i"
-	@echo "... tests/test_runner.s"
 .PHONY : help
 
 

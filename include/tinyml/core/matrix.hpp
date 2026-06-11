@@ -20,6 +20,8 @@ namespace MLForge {
             Matrix(size_t rows, size_t cols, const T& initial_value);
             Matrix(size_t rows, size_t cols, const std::vector<T>& flat_data);
 
+            void to_csv(const std::string& filename) const;
+
             // Element Access
             T& operator()(size_t row, size_t col);
             const T& operator()(size_t row, size_t col) const;
