@@ -1,32 +1,53 @@
 @echo off
-echo 🚀 Igniting MLForge Automated Windows Build Pipeline...
+setlocal enabledelayedexpansion
+cls
+echo 🚀 Igniting MLForge Universal Windows Build Pipeline...
 
-:: Check if a previous build directory exists; if so, clear it completely
+:: 1. Deep clean the build environment
 if exist build (
     echo 🧹 Existing build directory detected. Performing a deep clean...
     rmdir /s /q build
 )
 
-:: Reconstruct a pristine build directory and navigate inside
 mkdir build
 cd build
 
-:: Configure the project with CMake
-echo 📦 Inspecting Windows hardware and generating build files...
-cmake .. > nul
+echo 📦 Auto-detecting compiler and generating build files...
+:: Let CMake pick whatever compiler is native to the system (MSVC, MinGW, Clang, etc.)
+cmake ..
+if %errorlevel% neq 0 goto error
 
-:: Compile the project using the native Windows configuration
-echo 🛠️ Compiling translation units...
-cmake --build . --config Release --no-print-directory > nul
+echo 🛠️ Compiling translation units (Release Mode)...
+:: Standard multi-compiler build command with explicit target optimization configuration
+cmake --build . --config Release
+if %errorlevel% neq 0 goto error
 
-:: Run the executable
-echo 🔥 Running MLForge...
+echo 🔥 Running MLForge Engine...
 echo ==================================================
-if exist Release\mlforge_run.exe (
-    Release\mlforge_run.exe
-) else (
+
+:: 2. Cross-Compiler Location Resolver
+:: Check if the executable is in the root (MinGW/Makefiles) or a subfolder (MSVC/Visual Studio)
+if exist mlforge_run.exe (
     mlforge_run.exe
+) else if exist Release\mlforge_run.exe (
+    Release\mlforge_run.exe
+) else if exist Debug\mlforge_run.exe (
+    Debug\mlforge_run.exe
+) else (
+    echo ❌ Pipeline Halt: Compiled executable asset could not be located!
+    goto error
 )
 
-cd ..
+goto end
+
+:error
+echo.
+echo ❌ Pipeline Halt: A critical build error occurred.
+pause
+exit /b %errorlevel%
+
+:end
+echo.
+echo ==================================================
+echo ✅ Pipeline Finished Successfully.
 pause
