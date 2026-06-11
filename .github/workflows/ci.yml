@@ -1,6 +1,5 @@
 name: ML-Forge CI Build Verification Pipeline
 
-# Trigger this automated pipeline on every push or pull request to the main branch
 on:
   push:
     branches: [ main, master ]
@@ -12,28 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. Spin up an isolated cloud container and clone your code repository into it
     - name: Checkout Code Repository
       uses: actions/checkout@v4
 
-    # 2. Setup your system infrastructure pre-requisites (GCC compiler suite and CMake tools)
     - name: Install System Build Dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y build-essential cmake
 
-    # 3. Trigger your project compilation setup sequence using your existing build scripts
-    - name: Configure and Compile Build Binaries
+    # This single step mirrors exactly how you run it locally
+    - name: Execute Build and Test Automation Pipeline
       run: |
         chmod +x run.sh
         ./run.sh
-
-    # 4. Execute the automated unit test suite binary and check all assertion bounds
-   # - name: Run Framework Unit Tests Verification Suite
-    #  run: |
-     #   ./build/mlforge_tests
-
-    # 5. Execute your macro sandbox pipeline simulation binary to verify runtime integration
-    # - name: Run End-to-End Macro Sandbox Pipeline Simulation
-      #run: |
-      #  ./build/mlforge_run
