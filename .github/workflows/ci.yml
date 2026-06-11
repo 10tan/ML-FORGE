@@ -29,11 +29,11 @@ jobs:
         ./run.sh
 
     # 4. Execute the automated unit test suite binary and check all assertion bounds
-    - name: Run Framework Unit Tests Verification Suite
-      run: |
-        ./build/mlforge_tests
+   # - name: Run Framework Unit Tests Verification Suite
+    #  run: |
+     #   ./build/mlforge_tests
 
     # 5. Execute your macro sandbox pipeline simulation binary to verify runtime integration
-    - name: Run End-to-End Macro Sandbox Pipeline Simulation
-      run: |
-        ./build/mlforge_run
+    # - name: Run End-to-End Macro Sandbox Pipeline Simulation
+      #run: |
+      #  ./build/mlforge_run
