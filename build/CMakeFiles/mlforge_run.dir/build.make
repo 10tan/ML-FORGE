@@ -96,8 +96,6 @@ mlforge_run_EXTERNAL_OBJECTS =
 mlforge_run: CMakeFiles/mlforge_run.dir/main.cpp.o
 mlforge_run: CMakeFiles/mlforge_run.dir/build.make
 mlforge_run: CMakeFiles/mlforge_run.dir/compiler_depend.ts
-mlforge_run: libMLForge.a
-mlforge_run: libMLForge.a
 mlforge_run: CMakeFiles/mlforge_run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hardy/Desktop/ML-FORGE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mlforge_run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mlforge_run.dir/link.txt --verbose=$(VERBOSE)

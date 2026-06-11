@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MLForge
-
-# Build rule for target.
-MLForge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MLForge
-.PHONY : MLForge
-
-# fast build rule for target.
-MLForge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLForge.dir/build.make CMakeFiles/MLForge.dir/build
-.PHONY : MLForge/fast
-
-#=============================================================================
 # Target rules for targets named mlforge_run
 
 # Build rule for target.
@@ -166,30 +153,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mlforge_run.dir/build.make CMakeFiles/mlforge_run.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/mlforge.o: src/mlforge.cpp.o
-.PHONY : src/mlforge.o
-
-# target to build an object file
-src/mlforge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLForge.dir/build.make CMakeFiles/MLForge.dir/src/mlforge.cpp.o
-.PHONY : src/mlforge.cpp.o
-
-src/mlforge.i: src/mlforge.cpp.i
-.PHONY : src/mlforge.i
-
-# target to preprocess a source file
-src/mlforge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLForge.dir/build.make CMakeFiles/MLForge.dir/src/mlforge.cpp.i
-.PHONY : src/mlforge.cpp.i
-
-src/mlforge.s: src/mlforge.cpp.s
-.PHONY : src/mlforge.s
-
-# target to generate assembly for a file
-src/mlforge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLForge.dir/build.make CMakeFiles/MLForge.dir/src/mlforge.cpp.s
-.PHONY : src/mlforge.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MLForge"
 	@echo "... mlforge_run"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/mlforge.o"
-	@echo "... src/mlforge.i"
-	@echo "... src/mlforge.s"
 .PHONY : help
 
 

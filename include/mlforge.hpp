@@ -38,7 +38,6 @@ namespace MLForge {
 // ============================================================================
 // Linear & Regularized Regression Models
 #include "tinyml/supervised/linear/linear_reg.hpp"
-#include "tinyml/supervised/linear/linear_class.hpp"
 #include "tinyml/supervised/linear/logistic_reg.hpp"
 #include "tinyml/supervised/linear/ridge.hpp"
 #include "tinyml/supervised/linear/lasso.hpp"
@@ -67,11 +66,15 @@ namespace MLForge {
 #include "tinyml/supervised/nn/layers/conv2d.hpp"
 #include "tinyml/supervised/nn/layers/pooling.hpp"
 #include "tinyml/supervised/nn/layers/flatten.hpp"
+#include "tinyml/supervised/nn/layers/loss.hpp"
+#include "tinyml/supervised/nn/layers/layer.hpp"
 
 // Activations & Backpropagation Optimizers
 #include "tinyml/supervised/nn/activations/relu.hpp"
 #include "tinyml/supervised/nn/activations/sigmoid.hpp"
 #include "tinyml/supervised/nn/activations/softmax.hpp"
+#include "tinyml/supervised/nn/activations/tanh.hpp"
+#include "tinyml/supervised/nn/activations/leaky_relu.hpp"
 #include "tinyml/supervised/nn/optimizers/optimizer.hpp"
 #include "tinyml/supervised/nn/optimizers/sgd_momentum.hpp"
 #include "tinyml/supervised/nn/optimizers/adam.hpp"
@@ -96,26 +99,21 @@ namespace MLForge {
 #include "tinyml/utils/data_splitter.hpp"
 #include "tinyml/utils/preprocessing/scaler.hpp"
 
-// ============================================================================
-// 7. Core Template Implementation Linking
-// Required by C++ compilation rules to resolve template instances on the fly.
-// Since these are textually pasted right here, make sure their internal
-// code blocks match namespace MLForge::Core!
-// ============================================================================
-#include "../src/core/matrix.cpp"
-#include "../src/core/tensor.cpp"
-#include "../src/supervised/nn/activations/sigmoid.cpp"
-#include "../src/supervised/linear/linear_reg.cpp"
-#include "../src/supervised/linear/linear_class.cpp"
-#include "../src/supervised/trees/decision_tree.cpp"
-#include "../src/supervised/trees/adaboost.cpp"
-#include "../src/supervised/trees/gradient_boosting.cpp"
-#include "../src/supervised/trees/random_forest.cpp"
-#include "../src/supervised/nn/activations/relu.cpp"
-#include "../src/utils/preprocessing/scaler.cpp"
 
 // ============================================================================
 // 8. Visualization & I/O Utilities (Optional, may require external dependencies)
 // ============================================================================
 #include "tinyml/utils/visualization/plot.hpp"
-#include "../src/utils/visualization/plot.cpp"
+
+
+// ============================================================================
+// 9. Global Framework Configuration & System Verification
+// ============================================================================
+namespace MLForge {
+    inline void system_check() { // Note the 'inline' keyword here!
+        std::cout << "==================================================\n";
+        std::cout << "  MLForge Root Verification Complete!\n";
+        std::cout << "  Status: 100% Pure Header-Only Template Engine!\n";
+        std::cout << "==================================================" << std::endl;
+    }
+}

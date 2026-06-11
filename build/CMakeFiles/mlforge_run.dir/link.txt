@@ -1,1 +1,1 @@
-/usr/lib64/ccache/c++ -Wl,--dependency-file=CMakeFiles/mlforge_run.dir/link.d CMakeFiles/mlforge_run.dir/main.cpp.o -o mlforge_run  libMLForge.a libMLForge.a
+/usr/lib64/ccache/c++ -Wl,--dependency-file=CMakeFiles/mlforge_run.dir/link.d CMakeFiles/mlforge_run.dir/main.cpp.o -o mlforge_run
